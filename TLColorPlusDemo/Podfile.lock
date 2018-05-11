@@ -1,0 +1,16 @@
+PODS:
+  - TLColorPlus (1.0.0)
+
+DEPENDENCIES:
+  - TLColorPlus (from `./../TLColorPlus.podspec`)
+
+EXTERNAL SOURCES:
+  TLColorPlus:
+    :path: "./../TLColorPlus.podspec"
+
+SPEC CHECKSUMS:
+  TLColorPlus: aa38c421c0c64776c7be1244b67b0ec899e55e0c
+
+PODFILE CHECKSUM: 38d882685ee089b3bdb031e8bb436960516165fb
+
+COCOAPODS: 1.5.2

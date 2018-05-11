@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB4E377BAA9D45735BB108F0ED2E6FE /* Pods-TLColorPlusDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9152B51D4F9BCB4248EC2A5A3165540 /* Pods-TLColorPlusDemo-dummy.m */; };
+		A6644C95C895C087A78611AF718412A7 /* TLColorPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3625F1CA92C54B0134F3CC2646FC326 /* TLColorPlus-dummy.m */; };
+		D909136160C9113F05D8E565E827CA7D /* TLColorPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = C436346929BFB135F8F14DF59632BAAE /* TLColorPlus.m */; };
+		EB1A1AC1CE367B6AA45912903490C2D6 /* TLColorPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 9904E80FE8D5F955A0C11F907AB6E4E7 /* TLColorPlus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC76D75BAB5A223A283BB689DF24896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EE6431BB328FDB8F8C53F5D6CEAB9D;
+			remoteInfo = TLColorPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154F631C290EFFFBF403C1067E2EF4E2 /* Pods-TLColorPlusDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLColorPlusDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		194CDE6B57ED3D20E572399EC9ADAB9B /* Pods-TLColorPlusDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLColorPlusDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4DBFDA93C3A308E0B224FCFC8D68128A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F61582A16B81F61278525226223F59F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F724F63D92863241F6258B65B7618B1 /* TLColorPlus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLColorPlus-prefix.pch"; sourceTree = "<group>"; };
+		7F913B74C1A0537B47A993F4B16A8E23 /* TLColorPlus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TLColorPlus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84506103358B80854FE1E6E84AE17012 /* Pods-TLColorPlusDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLColorPlusDemo-resources.sh"; sourceTree = "<group>"; };
+		8752B1C1291F7FF68A7F1916EAEE3057 /* libPods-TLColorPlusDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TLColorPlusDemo.a"; path = "libPods-TLColorPlusDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9904E80FE8D5F955A0C11F907AB6E4E7 /* TLColorPlus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLColorPlus.h; path = Sources/TLColorPlus.h; sourceTree = "<group>"; };
+		AE079CA7CF1B75BB536A0F38DEAC0EEA /* TLColorPlus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLColorPlus.xcconfig; sourceTree = "<group>"; };
+		B412FC05F122F649C8994129B4463345 /* Pods-TLColorPlusDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLColorPlusDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C436346929BFB135F8F14DF59632BAAE /* TLColorPlus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLColorPlus.m; path = Sources/TLColorPlus.m; sourceTree = "<group>"; };
+		C5CE8E7E05A775E48F46AC51262EFDDB /* libTLColorPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTLColorPlus.a; path = libTLColorPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3625F1CA92C54B0134F3CC2646FC326 /* TLColorPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLColorPlus-dummy.m"; sourceTree = "<group>"; };
+		D9152B51D4F9BCB4248EC2A5A3165540 /* Pods-TLColorPlusDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLColorPlusDemo-dummy.m"; sourceTree = "<group>"; };
+		EF34E7D2DD34D9629E0F449E4B1949F9 /* Pods-TLColorPlusDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLColorPlusDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FBA39A077E492B8D8754D5AA5BD2132B /* Pods-TLColorPlusDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLColorPlusDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121D43DB674131104D57DE1583790ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD11D1A6777756110699151FC94DFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FBBF598C33AE29A7FF0BD2AD5A5FC64 /* Pods-TLColorPlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBA39A077E492B8D8754D5AA5BD2132B /* Pods-TLColorPlusDemo-acknowledgements.markdown */,
+				B412FC05F122F649C8994129B4463345 /* Pods-TLColorPlusDemo-acknowledgements.plist */,
+				D9152B51D4F9BCB4248EC2A5A3165540 /* Pods-TLColorPlusDemo-dummy.m */,
+				194CDE6B57ED3D20E572399EC9ADAB9B /* Pods-TLColorPlusDemo-frameworks.sh */,
+				84506103358B80854FE1E6E84AE17012 /* Pods-TLColorPlusDemo-resources.sh */,
+				154F631C290EFFFBF403C1067E2EF4E2 /* Pods-TLColorPlusDemo.debug.xcconfig */,
+				EF34E7D2DD34D9629E0F449E4B1949F9 /* Pods-TLColorPlusDemo.release.xcconfig */,
+			);
+			name = "Pods-TLColorPlusDemo";
+			path = "Target Support Files/Pods-TLColorPlusDemo";
+			sourceTree = "<group>";
+		};
+		23FB7D34265BE28366DCAE640E5728B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8752B1C1291F7FF68A7F1916EAEE3057 /* libPods-TLColorPlusDemo.a */,
+				C5CE8E7E05A775E48F46AC51262EFDDB /* libTLColorPlus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D69A70092DEB9E90E1B479B7ABBDC7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE079CA7CF1B75BB536A0F38DEAC0EEA /* TLColorPlus.xcconfig */,
+				D3625F1CA92C54B0134F3CC2646FC326 /* TLColorPlus-dummy.m */,
+				7F724F63D92863241F6258B65B7618B1 /* TLColorPlus-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "TLColorPlusDemo/Pods/Target Support Files/TLColorPlus";
+			sourceTree = "<group>";
+		};
+		39DDA88205AFCE814029DD42894AA883 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F61582A16B81F61278525226223F59F /* LICENSE */,
+				4DBFDA93C3A308E0B224FCFC8D68128A /* README.md */,
+				7F913B74C1A0537B47A993F4B16A8E23 /* TLColorPlus.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		59BFD117FA9516E079F7944083C2B3C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B739DD7992010801F4D7EC10E74770AF /* TLColorPlus */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				59BFD117FA9516E079F7944083C2B3C0 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				23FB7D34265BE28366DCAE640E5728B9 /* Products */,
+				ED9EA6A6F28242BBABC1424C5F7729CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B739DD7992010801F4D7EC10E74770AF /* TLColorPlus */ = {
+			isa = PBXGroup;
+			children = (
+				9904E80FE8D5F955A0C11F907AB6E4E7 /* TLColorPlus.h */,
+				C436346929BFB135F8F14DF59632BAAE /* TLColorPlus.m */,
+				39DDA88205AFCE814029DD42894AA883 /* Pod */,
+				2D69A70092DEB9E90E1B479B7ABBDC7B /* Support Files */,
+			);
+			name = TLColorPlus;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ED9EA6A6F28242BBABC1424C5F7729CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBF598C33AE29A7FF0BD2AD5A5FC64 /* Pods-TLColorPlusDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E6DE35FEBF4B1C044FDEE8D185E6C52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1A1AC1CE367B6AA45912903490C2D6 /* TLColorPlus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47EE6431BB328FDB8F8C53F5D6CEAB9D /* TLColorPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD633D7F1899B5A24A619DB2CDF19E5 /* Build configuration list for PBXNativeTarget "TLColorPlus" */;
+			buildPhases = (
+				7B54FAF17A82CE69F23FA2A180CAE7EC /* Sources */,
+				121D43DB674131104D57DE1583790ACF /* Frameworks */,
+				8E6DE35FEBF4B1C044FDEE8D185E6C52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLColorPlus;
+			productName = TLColorPlus;
+			productReference = C5CE8E7E05A775E48F46AC51262EFDDB /* libTLColorPlus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		629BF268BB1403FA881EF4F37AC76EAC /* Pods-TLColorPlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65177CCDA7EB0C45DEF2924799E65B70 /* Build configuration list for PBXNativeTarget "Pods-TLColorPlusDemo" */;
+			buildPhases = (
+				16FBCF28E19CB54BF992C07AAF1B9E10 /* Sources */,
+				ABD11D1A6777756110699151FC94DFDC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A904B9F4A9490DA87AA16AFC32B39686 /* PBXTargetDependency */,
+			);
+			name = "Pods-TLColorPlusDemo";
+			productName = "Pods-TLColorPlusDemo";
+			productReference = 8752B1C1291F7FF68A7F1916EAEE3057 /* libPods-TLColorPlusDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 23FB7D34265BE28366DCAE640E5728B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629BF268BB1403FA881EF4F37AC76EAC /* Pods-TLColorPlusDemo */,
+				47EE6431BB328FDB8F8C53F5D6CEAB9D /* TLColorPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16FBCF28E19CB54BF992C07AAF1B9E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB4E377BAA9D45735BB108F0ED2E6FE /* Pods-TLColorPlusDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B54FAF17A82CE69F23FA2A180CAE7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6644C95C895C087A78611AF718412A7 /* TLColorPlus-dummy.m in Sources */,
+				D909136160C9113F05D8E565E827CA7D /* TLColorPlus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A904B9F4A9490DA87AA16AFC32B39686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLColorPlus;
+			target = 47EE6431BB328FDB8F8C53F5D6CEAB9D /* TLColorPlus */;
+			targetProxy = EAC76D75BAB5A223A283BB689DF24896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04771C2546114E3DADE8CF22F0635908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154F631C290EFFFBF403C1067E2EF4E2 /* Pods-TLColorPlusDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BCD59194B45EADB42B7398D685DD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF34E7D2DD34D9629E0F449E4B1949F9 /* Pods-TLColorPlusDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A5462D35AA5902805A72013F0E61563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE079CA7CF1B75BB536A0F38DEAC0EEA /* TLColorPlus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TLColorPlus/TLColorPlus-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TLColorPlus;
+				PRODUCT_NAME = TLColorPlus;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFF18C72B4D19C428B2D6C2F91932D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE079CA7CF1B75BB536A0F38DEAC0EEA /* TLColorPlus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TLColorPlus/TLColorPlus-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TLColorPlus;
+				PRODUCT_NAME = TLColorPlus;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65177CCDA7EB0C45DEF2924799E65B70 /* Build configuration list for PBXNativeTarget "Pods-TLColorPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04771C2546114E3DADE8CF22F0635908 /* Debug */,
+				5BCD59194B45EADB42B7398D685DD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD633D7F1899B5A24A619DB2CDF19E5 /* Build configuration list for PBXNativeTarget "TLColorPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF18C72B4D19C428B2D6C2F91932D82 /* Debug */,
+				6A5462D35AA5902805A72013F0E61563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

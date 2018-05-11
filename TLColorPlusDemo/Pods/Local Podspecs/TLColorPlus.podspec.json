@@ -1,0 +1,21 @@
+{
+  "name": "TLColorPlus",
+  "version": "1.0.0",
+  "license": "MIT",
+  "summary": "easy to use UIColor for fill with hex & generate gradient background color",
+  "description": "easy to use UIColor for fill with hex & generate gradient background color",
+  "homepage": "https://bitbucket.org/sphitd/TLColorPlus",
+  "authors": {
+    "Tony Li": "atom2ueki@gmail.com"
+  },
+  "social_media_url": "https://github.com/atom2ueki/TLColorPlus/",
+  "source": {
+    "git": "https://github.com/atom2ueki/TLColorPlus.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "9.0"
+  },
+  "source_files": "Sources/**/*"
+}
